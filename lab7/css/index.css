@@ -22,11 +22,12 @@ p {
   color: white;
 }
 
-img {
+.photos img {
       height:300px;
       width:auto;
       float: right;
   }
+
 .footer {
       font-family: copperplate;
 

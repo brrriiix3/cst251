@@ -1,0 +1,41 @@
+h1, h3 {
+    font-family: inherit;
+    color: black;
+}
+
+h1,h3.content {
+    text-align: justify;
+    text-decoration: overline;
+}
+
+p {
+    color: purple;
+}
+
+p#result {
+    color: white;
+}
+
+body {
+    margin: 80px;
+    padding:25px;
+    border-style: dotted;
+    border-width:0px 30px;
+    border-color: white;
+    background-color: #c7ceea;
+    font-family: sans-serif;
+}
+
+.photo img {
+    height:100px;
+    width:auto;
+  }
+
+.photo:hover img {
+    transform: scale(3.5);
+}
+
+div#homepage img {
+    width: 20px;
+    float: right;
+}
