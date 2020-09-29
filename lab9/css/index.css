@@ -1,0 +1,48 @@
+html, body {
+  background-color: #fca652;
+}
+
+#content {
+  margin: 50px;
+  padding: 20px;
+  border: double 50px #ac4b1c;
+  background-color: #ffd57e;
+  overflow: scroll;
+}
+
+div#task {
+  font-size: 140%;
+  color: #f8efd4;
+}
+
+div#problems {
+  font-size: 140%;
+  color: #ffefa0;
+}
+
+div#results {
+  font-size: 140%;
+  color: #ffa372;
+}
+
+div#header {
+  font-size: 180%;
+  color: #F95738;
+}
+
+.title-ps {
+  color: #006a71;
+  font-weight: bold;
+}
+.venice img {
+  margin: 40px;
+  height: auto;
+  width: 500px;
+  float: left;
+}
+#homeButton img {
+  width: 20px;
+  position: absolute;
+  right:  119px;
+  bottom: -620px;
+  }
