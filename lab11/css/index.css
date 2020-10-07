@@ -1,0 +1,80 @@
+
+html, body {
+  background-color: #448a9a;
+}
+
+#content {
+  margin: 50px;
+  padding: 20px;
+  border: double 50px #7da75e;
+  background-color: #fae679;
+  overflow: scroll;
+}
+
+div#task {
+  letter-spacing: 6px;
+  text-transform: lowercase;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 160%;
+  color: #fb9ab6;
+  word-spacing: 29px;
+}
+
+div#problems {
+  letter-spacing: 6px;
+  text-transform: lowercase;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 140%;
+  color: #ee6d8a;
+}
+
+div#results {
+  letter-spacing: 6px;
+  text-transform: lowercase;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 170%;
+  color: #e45356;
+}
+
+div#header {
+  word-spacing: 15px;
+  font-family: 'Monoton', cursive;
+  font-size: 180%;
+  color: #4182bc;
+}
+
+.title-ps {
+  color: 	#AA5303;
+  font-weight: bold;
+  font-size: 140%;
+  font-family: monospace;
+}
+
+img {
+  width: 500px;
+}
+
+#homeButton img {
+  width: 120px;
+  position: absolute;
+  right:  119px;
+  bottom: -1780px;
+}
+
+div#p {
+  font-size: small;
+  font-family: monospace;
+  font-weight: bold;
+  position: absolute;
+  right:  119px;
+  bottom: -1810px;
+}
+
+#sidebar{
+  width: 30%;
+  padding: 20px;
+  margin-left: 690px;
+  min-width: 300px;
+  background-color: orange;
+  position: fixed;
+}
