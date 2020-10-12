@@ -1,0 +1,132 @@
+html, body {
+  background-color: #A66B49;
+}
+
+main#content {
+  margin: 50px;
+  padding: 20px;
+  border: double 50px #C0D904;
+  overflow: scroll;
+}
+
+div#header {
+  margin-left: 45px;
+  word-spacing: 15px;
+  font-family: 'Monoton', cursive;
+  font-size: 180%;
+  color: #D9A404;
+}
+
+div#task {
+  width: 30%;
+  letter-spacing: 6px;
+  text-transform: lowercase;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 160%;
+  color: #F21D44;
+  word-spacing: 29px;
+}
+
+div#problems {
+  width: 30%;
+  letter-spacing: 6px;
+  text-transform: lowercase;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 140%;
+  color: #F21D44;
+}
+
+div#results {
+  width: 30%;
+  letter-spacing: 6px;
+  text-transform: lowercase;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 170%;
+  color: #F21D44;
+}
+
+.title-ps {
+  color: 	#C0D904;
+  font-weight: bold;
+  font-size: 140%;
+  font-family: monospace;
+}
+
+nav {
+  position: sticky;
+  background-color: #D9A05B;;
+  border: double 40px #C0D904;
+}
+
+a:link {
+  color: #F21D44;
+}
+
+a:visited {
+  color: #F21D44;
+  text-decoration: line-through;
+}
+
+a:hover {
+  color: white;
+  text-decoration: overline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+img {
+  width: 250px;
+}
+
+#homeButton img {
+  width: 120px;
+  position: absolute;
+  left:  119px;
+  bottom: -1440px;
+}
+
+div#p {
+  font-size: small;
+  font-family: monospace;
+  font-weight: bold;
+  position: absolute;
+  left:  119px;
+  bottom: -1465px;
+}
+
+div#floated {
+  width: 30%;
+  border: dotted 4px #D9A404;
+  padding: 10px;
+  color: white;
+  position: relative;
+  left: 800px;
+}
+
+div#center-horz {
+  display: block;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  border: dotted 4px #D9A404;
+  padding: 10px;
+  color: white;
+}
+
+div#center-img {
+  display: block;
+  width: 30%;
+  padding: 10px;
+  margin-left: 450px;
+  margin-right: auto;
+  color: white;
+}
+
+div#center-both {
+  width: 30%;
+  position: relative;
+  right: -465px;
+  padding: 10px;
+}

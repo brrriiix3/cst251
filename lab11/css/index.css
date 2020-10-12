@@ -3,7 +3,7 @@ html, body {
   background-color: #448a9a;
 }
 
-#content {
+main#content {
   margin: 50px;
   padding: 20px;
   border: double 50px #7da75e;
@@ -70,11 +70,18 @@ div#p {
   bottom: -1810px;
 }
 
-#sidebar{
+#sidebar {
   width: 30%;
   padding: 20px;
   margin-left: 690px;
   min-width: 300px;
   background-color: orange;
   position: fixed;
+}
+
+nav {
+  top: 0px;
+  position: sticky;
+  background-color: #fae679;
+  border: double 40px #7da75e;
 }
