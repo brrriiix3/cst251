@@ -1,0 +1,77 @@
+html, body {
+  background-color: white;
+}
+#container {
+  text-align: center;
+  overflow: scroll;
+}
+
+.hello p {
+  color: #aaaaaa;
+  font-size: 120%;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.hello {
+  text-align: center;
+}
+
+.hello img {
+  padding: 100px 100px 15px 100px;
+  width: 350px;
+  height: auto;
+}
+
+h4 {
+  clear: left;
+}
+
+#header {
+  overflow: hidden;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+#header a {
+  float: left;
+  display: block;
+  color: #aaaaaa;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+#header a.right {
+  float: right;
+}
+
+/* Change color on hover */
+#header a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.sign {
+  width: 190px;
+  border: solid 2px #26abff;
+  background-color: #26abff;
+  border-radius: 30px;
+  text-align: center;
+  right: auto;
+}
+
+.sign p {
+  color: white;
+  font-weight: bold;
+}
+
+#cloud {
+  text-align:center;
+}
+
+#cloud img {
+  width: 40px;
+}

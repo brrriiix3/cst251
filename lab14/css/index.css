@@ -1,0 +1,93 @@
+
+html, body {
+  background-color: tan;
+  padding: 50px:
+}
+
+#content {
+  margin: 50px;
+  padding: 20px;
+  border: solid 10px white;
+  background-color: beige;
+  overflow: scroll;
+}
+
+h2 {
+  letter-spacing: 6px;
+  font-family: monospace;
+  font-size: 200%;
+  color: 	#AA5303;
+}
+
+div#header {
+  letter-spacing: 9px;
+  font-family: inherit;
+  font-size: 150%;
+  color: #448a9a;
+}
+
+.title-ps {
+  color: #e3ae01;
+  font-weight: bold;
+  font-size: 140%;
+  font-family: monospace;
+}
+
+img {
+  width: 500px;
+}
+
+
+#homeButton img {
+  width: 120px;
+  position: absolute;
+  right:  119px;
+  bottom: -730px;
+}
+
+div#p {
+  font-size: small;
+  font-family: monospace;
+  font-weight: bold;
+  position: absolute;
+  right:  119px;
+  bottom: -750px;
+}
+
+iframe#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+}
+
+nav {
+  top: 0px;
+  padding: 8px 15px;
+  position: sticky;
+  background-color: beige;
+  border: solid 10px white;
+  border-radius: 15px;
+  width: 6%;
+}
+
+a:link {
+  color: #e3ae01;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 110%;
+}
+
+a:visited {
+  color: #e3ae01;
+  text-decoration: line-through;
+}
+
+a:hover {
+  color: #AA5303;
+  text-decoration: overline;
+}
+
+a:active {
+  text-decoration: underline;
+}

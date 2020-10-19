@@ -1,0 +1,48 @@
+html, body {
+  background-color: white;
+  border: solid 10px orange;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+#left-side {
+  border: solid 10px red;
+}
+
+#right-side {
+  border: solid 10px blue;
+}
+left-text {
+  font-family: 'Lora', serif;
+  border: solid 10px green;
+}
+
+right-text {
+  border: solid 10px yellow;
+}
+
+h1 {
+  font-family: 'Nanum Myeongjo';
+  border: solid 10px black;
+  width: 40%;
+}
+
+p {
+  font-family: sans-serif;
+  border: solid 10px purple;
+  width: 40%;
+}
+
+#right-image img {
+  border: solid 10px yellow;
+  width: 100px;
+  top: 10px;
+  right: 0px;
+  text-align: center;
+}
+
+#left-image img {
+  border: solid 10px magenta;
+  width: 308px;
+  text-align: center;
+}
