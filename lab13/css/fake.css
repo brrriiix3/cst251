@@ -1,48 +1,50 @@
 html, body {
   background-color: white;
-  border: solid 10px orange;
-  margin-left: 75px;
-  margin-right: 75px;
+  margin: 25px;
 }
 
-#left-side {
-  border: solid 10px red;
-}
-
-#right-side {
-  border: solid 10px blue;
-}
-left-text {
-  font-family: 'Lora', serif;
-  border: solid 10px green;
-}
-
-right-text {
+#container {
+  overflow: scroll;
   border: solid 10px yellow;
+
 }
 
 h1 {
   font-family: 'Nanum Myeongjo';
-  border: solid 10px black;
-  width: 40%;
 }
 
 p {
   font-family: sans-serif;
-  border: solid 10px purple;
-  width: 40%;
 }
 
-#right-image img {
-  border: solid 10px yellow;
-  width: 100px;
-  top: 10px;
-  right: 0px;
-  text-align: center;
+#left-side {
+  width: 45%;
 }
 
 #left-image img {
-  border: solid 10px magenta;
-  width: 308px;
+  height: 220px;
+  text-align: center;
+}
+
+#left-image {
+  width: 45%;
+  text-align: center;
+}
+
+#right-side {
+  float: right;
+  clear: left;
+  border: solid 10px blue;
+  width: 50%;
+}
+
+#right-image img {
+  width: 90px;
+  left: 300px;
+}
+
+#right-image {
+  margin: 20px 100px 90px 589px;
+  width: 50%;
   text-align: center;
 }

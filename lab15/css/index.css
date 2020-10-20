@@ -1,0 +1,128 @@
+#content {
+  background-image: linear-gradient(chocolate, brown, maroon);
+  padding: 1px;
+}
+
+nav {
+  overflow: hidden;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: peru;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav a.right {
+  float: right;
+}
+
+nav a:hover {
+  color: khaki;
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: 'Cinzel Decorative', cursive;
+  color: snow;
+  text-align: center;
+  text-shadow: 5px 5px 5px grey;
+  font-size: 55px;
+}
+
+h2 {
+  font-family: serif;
+  color: gold;
+  text-align: center;
+}
+
+#joffrey-death img {
+  height: 580px;
+  box-shadow: 5px 5px 50px black;
+  filter: blur(5px);
+}
+
+#joffrey-death img:hover {
+ filter: blur(0);
+}
+
+#joffrey-death {
+  text-align: center;
+}
+
+#throne img {
+   width: 450px;
+   height: 500px;
+   object-fit: cover;
+   border: solid 1px black;
+   border-radius: 50px
+}
+#throne {
+  text-align: center;
+}
+
+#whites img {
+  height: 520px;
+  border-radius: 50px;
+
+}
+#whites {
+  text-align: center;
+}
+
+#fashion img {
+  height: 800px;
+  border-radius: 50px
+}
+
+#fashion {
+  text-align: center;
+}
+
+#scary img {
+  height: 500px;
+  border-radius: 50px
+}
+
+#scary {
+  text-align: center;
+}
+
+#look img {
+  height: 450px;
+  border-radius: 50px
+}
+
+#look {
+  text-align: center;
+}
+
+
+.reek img {
+  height: 100px;
+  filter: blur(50px);
+}
+
+.reek img:hover {
+  filter: blur(0);
+  height: 600px;
+}
+
+.reek {
+  text-align: right;
+}
+
+.reek p {
+  font-style: oblique;
+  color: gold;
+  font-family: serif;
+  transform: rotate(-7deg);
+  padding-right: 8px; 
+}

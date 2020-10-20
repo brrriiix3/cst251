@@ -48,7 +48,6 @@ h4 {
   float: right;
 }
 
-/* Change color on hover */
 #header a:hover {
   color: black;
   text-decoration: underline;

@@ -1,31 +1,35 @@
+
 html, body {
-  background-color: white;
-  padding: 25px:
+  background-color: black;
+  padding: 50px:
 }
 
 #content {
-  margin: 25px;
-  background-color: white;
+  margin: 50px;
+  padding: 20px;
+  border: solid 10px #fc4605;
+  background-color: #575a61;
   overflow: scroll;
 }
 
 h2 {
+  text-shadow: 5px 5px 5px black;
   letter-spacing: 6px;
   font-family: monospace;
   font-size: 200%;
-  color: 	cadetblue;
+  color: 	#AA5303;
 }
 
 div#header {
+  text-shadow: 5px 2px 5px black;
   letter-spacing: 9px;
   font-family: inherit;
   font-size: 180%;
-  color: lightblue;
+  color: #5e32ba;
 }
 
 .title-ps {
-  color: navy;
-  font-weight: bold;
+  color: #3fab43;
   font-size: 140%;
   font-family: monospace;
 }
@@ -43,6 +47,7 @@ img {
 }
 
 div#p {
+  color: #3fab43;
   font-size: small;
   font-family: monospace;
   position: absolute;
@@ -62,25 +67,25 @@ nav {
   padding: 8px 15px;
   position: sticky;
   background-color: white;
-  border: solid 10px lightblue;
+  border: solid 10px #5e32ba;
   border-radius: 15px;
-  width: 10%;
+  width: 6%;
 }
 
 a:link {
-  color: midnightblue;
+  color: #aa5303;
   font-weight: bold;
   font-family: monospace;
   font-size: 110%;
 }
 
 a:visited {
-  color: steelblue;
+  color: #aa5303;
   text-decoration: line-through;
 }
 
 a:hover {
-  color: dodgerblue;
+  color: #3fab43;
   text-decoration: overline;
 }
 
