@@ -3,6 +3,20 @@
   padding: 1px;
 }
 
+.title-ps h2 {
+  color: 	khaki;
+  font-family: serif;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.title-ps p {
+  color: 	papayawhip;
+  font-family: serif;
+  text-align: left;
+  padding-left: 60px;
+}
+
 nav {
   overflow: hidden;
   position: sticky;
@@ -124,5 +138,5 @@ h2 {
   color: gold;
   font-family: serif;
   transform: rotate(-7deg);
-  padding-right: 8px; 
+  padding-right: 8px;
 }
