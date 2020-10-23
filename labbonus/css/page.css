@@ -1,23 +1,29 @@
 
 html, body {
   background-color: black;
-  padding: 50px:
+  margin: 25px
 }
 
 #content {
-  margin: 50px;
-  padding: 20px;
-  border: solid 10px #fc4605;
+  padding: 12px;
+  border: double 2px #fc4605;
   background-color: #575a61;
   overflow: scroll;
 }
 
 h2 {
-  text-shadow: 5px 5px 5px black;
-  letter-spacing: 6px;
-  font-family: monospace;
-  font-size: 200%;
+  text-shadow: 5px 5px 15px white;
+  letter-spacing: 16px;
+  font-family: 'Nosifer', cursive;
+  text-align: center;
+  font-size: 80px;
   color: 	#AA5303;
+}
+
+h2:hover{
+  font-size: 100px;
+  color: 	#8d0101;
+  transition: 2s;
 }
 
 div#header {
@@ -32,41 +38,61 @@ div#header {
   color: #3fab43;
   font-size: 140%;
   font-family: monospace;
+  text-align: center;
+  text-shadow: 2px 2px 25px white;
 }
 
 img {
   width: 500px;
+  filter: drop-shadow(5px 5px 15px black), saturate(100%);
 }
 
-
-#homeButton img {
-  width: 120px;
-  position: absolute;
-  right:  100px;
-  bottom: -700px;
+#bats {
+  text-align: center;
 }
 
-div#p {
-  color: #3fab43;
-  font-size: small;
-  font-family: monospace;
-  position: absolute;
-  right:  100px;
-  bottom: -730px;
+#bats:hover {
+  transform: rotate(-60deg);
+  transition: 2s;
 }
 
-iframe#fake {
-    width: 800px;
-    height: 500px;
-    resize: both;
-    overflow: hidden;
+#ghost {
+  text-align: center;
+}
+
+#skeleton {
+  text-align: right;
+}
+
+#skeleton:hover {
+  transform: rotate(-360deg);
+  transition: 2s;
+}
+
+#pumpkin {
+  text-align: center;
+}
+
+#pumpkin img {
+  border-radius: 250px;
+  width: 300px;
+}
+
+#cat:hover {
+  padding-left: 900px;
+  transition: 2s;
+}
+
+#vampire:hover {
+  transform: rotate(360deg);
+  transition: 2s;
 }
 
 nav {
   top: 0px;
   padding: 8px 15px;
   position: sticky;
-  background-color: white;
+  background-color: black;
   border: solid 10px #5e32ba;
   border-radius: 15px;
   width: 6%;
