@@ -1,0 +1,88 @@
+#content {
+  background-image: url(https://mobilemedicalcare.org/wp-content/uploads/2015/11/blue-sky-1330598792xLu.jpg);
+  background-position: center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-ps h2 {
+  color: 	papayawhip;
+  font-family: serif;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.title-ps p {
+  color: 	snow;
+  font-family: serif;
+  text-align: left;
+  padding-left: 40px;
+  column-count: 2;
+}
+
+nav {
+  overflow: hidden;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: midnightblue;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav a.right {
+  float: right;
+}
+
+nav a:hover {
+  color: skyblue;
+  text-decoration: underline;
+}
+
+h1 {
+  font-family:  'Over the Rainbow', cursive;
+  color: midnightblue;
+  text-align: center;
+  text-shadow: 2px 2px 20px white;
+  font-size: 55px;
+}
+
+.water {
+  text-align: center;
+  padding: 20px;
+}
+
+.water img {
+  width: 800px;
+  transition: width 5s;
+  transition: opacity 5s;
+}
+
+.water img:hover {
+  width: 400px;
+  opacity: 0;
+}
+
+.text-reveal {
+  padding: 20px;
+  background-color: teal;
+  width: 30%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: teal;
+  animation-name: text;
+  animation-duration: 20s;
+}
+
+@keyframes text {
+  from {background-color: teal;}
+  to {background-color: white;}
+}
