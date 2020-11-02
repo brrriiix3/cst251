@@ -1,0 +1,23 @@
+header {
+  border: solid 5px green;
+}
+
+footer {
+  border: solid 5px red;
+}
+
+nav {
+  border: solid 5px blue;
+}
+
+main {
+  border: solid 5px purple;
+}
+
+aside {
+  border: solid 5px orange;
+}
+
+aside img{
+  width: 300px;
+}

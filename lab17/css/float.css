@@ -1,0 +1,71 @@
+html, body {
+  background-color: #A66B49;
+}
+
+p {
+  color: #f2cf9d;
+}
+
+h2 {
+  color: inherit;
+  font-family: monospace;
+}
+
+aside {
+  float: left;
+  border: solid 5px #c46404;
+  clear: both;
+}
+
+aside img{
+  width: 300px;
+}
+
+#aside2 {
+  float: right;
+  clear: right;
+  border: solid 5px #c46404;
+}
+
+header {
+  color: #ccbcac;
+  font-family: monospace;
+  float: left;
+  padding: 0 20px;
+}
+
+footer {
+  float: left;
+  clear: both;
+  border: solid 2px #c46404;
+
+}
+
+main {
+  float: left;
+  border: solid 5px #c46404;
+  margin: 0 90px;
+}
+
+nav {
+  overflow: hidden;
+  float: right;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: pink;
+  font-weight: bold;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+
+nav a.right {
+  float: right;
+}
+
+nav a:hover {
+  color: khaki;
+  text-decoration: underline;
+}
