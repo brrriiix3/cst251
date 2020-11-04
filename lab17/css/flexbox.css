@@ -16,11 +16,7 @@ aside {
 }
 
 aside img{
-  width: 300px;
-}
-
-#aside2 {
-  border: solid 5px #c46404;
+  max-width: 300px;
 }
 
 header {
@@ -30,19 +26,16 @@ header {
 }
 
 footer {
-  border: solid 2px #c46404;
-
+  border: solid 5px #c46404;
 }
 
 main {
-  float: left;
   border: solid 5px #c46404;
-  margin: 0 90px;
+  text-align: center;
 }
 
 nav {
   overflow: hidden;
-  float: right;
 }
 
 nav a {
@@ -66,11 +59,11 @@ nav a:hover {
 .box {
  width: 300px;
  height: auto;
- border: dotted 8px white;
- align-self: center;
 }
 
 .flex {
  display: flex;
- flex-direction: column;
+ flex-direction: row;
+ align-content: center;
+ justify-content: space-around;
 }

@@ -6,82 +6,78 @@
 </head>
 
   <body>
+	<header><h1>CSS Flexbox Layout</h1></header>
 
-  <header>
-    <h1>CSS Flexbox Layout</h1>
-  </header>
+	<nav>
+		<a href="../index.html">Homepage</a>
+		<a href="index.html">Index</a>
+		<a href="float.html">Float</a>
+		<a href="flexbox.html">Flexbox</a>
+		<a href="grid.html">Grid</a>
+	</nav>
 
-  <nav>
-    <a href="../index.html">Homepage</a>
-    <a href="index.html">Index</a>
-    <a href="float.html">Float</a>
-    <a href="flexbox.html">Flexbox</a>
-    <a href="grid.html">Grid</a>
-  </nav>
+	<div class="flex">
+	  <aside>
+	    <img src="img/lab.png">
+	    <p>Lab 15</p>
+	    <br>
+	    <img src="img/lab9.png">
+	    <p>Lab 9</p>
+	  </aside>
 
-  <aside>
-    <img src="img/lab.png">
-    <p>Lab 15</p>
-    <br>
-    <img src="img/lab9.png">
-    <p>Lab 9</p>
-  </aside>
+	  <main>
+			<section>
+			  <h2>Task</h2>
+			  <p>Practice using CSS Layout tools. Lorem ipsum dolor sit amet,
+			     consectetur adipisicing elit, <br>sed do eiusmod tempor incididun ut labore et
+		      dolore magna aliqua. Ut enim<br> ad minim veniam, quis nostrud exercitation
+	       ullamco laboris nisi ut aliquip ex <br>ea commodo consequat. Duis aute
+	        irure dolor in reprehenderit <br>in voluptate velit esse cillum dolore
+	        eu fugiat nulla pariatur. Excepteur sint occaecat <br>cupidatat non proident,
+					sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</section>
+			<section>
+					<h2>Problems</h2>
+		      <p>Some issues I was coming out with were figuring out the information
+		         needed in each section.<br> If we were using the same CSS for each and
+		        adding a bit more depending on the page.<br> When using the flexbox Layout
+					  I was struggling the most. I do not necessesarily<br> understand how it works.
+					  Boxes are everywhere because of the borders so it gets even more <br>confusing.
+					  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do<br> eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.
+		         Ut enim ad minim veniam, <br>quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+		         ea commodo consequat. Duis aute irure dolor in <br>reprehenderit in voluptate velit esse
+		         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br>cupidatat non proident,
+		          sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</section>
+			<section>
+						<h2>Results</h2>
+						<p>I was able to make a layout I am happy with. Lorem ipsum dolor sit amet,
+					  	 consectetur<br> adipisicing elit, sed do eiusmod tempor incididunt ut labore
+						   et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation
+						 	 ullamco laboris nisi ut aliquip<br> ex ea commodo consequat. Duis aute irure
+					     dolor in reprehenderit <br>in voluptate velit esse cillum dolore eu fugiat
+							 nulla pariatur. Excepteur sint occaecat <br>cupidatat non proident, sunt
+							 in culpa qui officia deserunt mollit anim id est laborum.</p>
+		  </section>
 
-  <main>
-		<div class="flex">
-	 		<div class="box">
-		      <h2>Task</h2>
-		      <p>Practice using CSS Layout tools. Lorem ipsum dolor sit amet,
-		        consectetur adipisicing elit, <br>sed do eiusmod tempor incididun ut labore et
-		        dolore magna aliqua. Ut enim<br> ad minim veniam, quis nostrud exercitation
-		        ullamco laboris nisi ut aliquip ex <br>ea commodo consequat. Duis aute
-		        irure dolor in reprehenderit <br>in voluptate velit esse cillum dolore
-		        eu fugiat nulla pariatur. Excepteur sint occaecat <br>cupidatat non proident,
-		        sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-	 		<div class="box">
-				<h2>Problems</h2>
-	      <p>Some issues I was coming out with were figuring out the information
-	         needed in each section.<br> If we were using the same CSS for each and
-	        adding a bit more depending on the page.<br> When using the flexbox Layout
-				  I was struggling the most. I do not necessesarily<br> understand how it works.
-				  Boxes are everywhere because of the borders so it gets even more <br>confusing.
-				  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do<br> eiusmod tempor incididunt ut labore et dolore magna aliqua.
-	         Ut enim ad minim veniam, <br>quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-	         ea commodo consequat. Duis aute irure dolor in <br>reprehenderit in voluptate velit esse
-	         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br>cupidatat non proident,
-	          sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
+   </main>
 
-	 		<div class="box">
-				<h2>Results</h2>
-					<p>I was able to make a layout I am happy with. Lorem ipsum dolor sit amet,
-				  	 consectetur<br> adipisicing elit, sed do eiusmod tempor incididunt ut labore
-					   et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation
-					 	 ullamco laboris nisi ut aliquip<br> ex ea commodo consequat. Duis aute irure
-				     dolor in reprehenderit <br>in voluptate velit esse cillum dolore eu fugiat
-						 nulla pariatur. Excepteur sint occaecat <br>cupidatat non proident, sunt
-						 in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-
-		</div>
-  </main>
-
-  <aside id="aside2">
-    <img src="img/lab9.png">
-    <p>Lab 9</p>
-    <br>
-    <img src="img/lab.png">
-    <p>Lab 15</p>
-  </aside>
-
-
+		<aside class="aside2">
+			<img src="img/lab9.png">
+			<p>Lab 9</p>
+			<br>
+			<img src="img/lab.png">
+			<p>Lab 15</p>
+		</aside>
+	</div>
+	<br>
   <footer>
+		<h3>Contact information:</h3>
     <p>Brianna Sanchez Ortega</p>
     <p>Email: bsanchezortega@csumb.edu</p>
     <p>Phone Number: (831)523.2922</p>
     <a href="https://www.linkedin.com/in/brianna-sanchez-ortega/">LinkedIn</a>
   </footer>
-
 </body>
 </html>

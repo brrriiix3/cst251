@@ -11,15 +11,16 @@ h2 {
   font-family: monospace;
 }
 
+aside img{
+  width: 300px;
+}
+
 aside {
   float: left;
   border: solid 5px #c46404;
   clear: both;
 }
 
-aside img{
-  width: 300px;
-}
 
 #aside2 {
   float: right;
