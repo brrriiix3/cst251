@@ -1,0 +1,23 @@
+
+body {
+ background-image: url("https://i.pinimg.com/originals/2a/88/4c/2a884cd02f472e42486cc19a4a7fa870.jpg");
+ background-repeat: repeat;
+ background-size: cover;
+ padding: 40px 0 120px 0;
+}
+
+main {
+  background-color: ivory;
+  padding: 15px;
+}
+
+header {
+  background-color: white;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+header img {
+  max-width: 100%;
+  object-fit: cover;
+}
