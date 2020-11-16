@@ -1,0 +1,94 @@
+html, body {
+  background-color: #8c8c8c;
+}
+
+header {
+  font-family: monospace;
+  text-align: center;
+  font-size: 120%;
+}
+
+h2 {
+  font-family: monospace;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+footer {
+  border: solid 2px black;
+}
+
+nav {
+  overflow: hidden;
+  position:  static;
+  top: 0;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: snow;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav a.right {
+  float: right;
+}
+
+nav a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+
+main {
+  padding: 20px;
+  background-color: #d5d5d5;
+}
+
+#sidebar {
+  margin: 40px 0;
+}
+
+
+aside {
+  text-align: center;
+  filter: drop-shadow(10px 10px 10px black);
+}
+
+aside img {
+    max-width:50%;
+}
+
+.left, .right {
+  float: left;
+  width: 20%;
+}
+
+.main {
+  float: left;
+  width: 60%;
+}
+
+@media screen and (max-width:800px) {
+  .left, .main, .right {
+  width: 100%;
+ }
+}
+
+.box {
+ width: 300px;
+ height: auto;
+}
+
+.flex {
+ display: flex;
+ flex-direction: row;
+ align-content: center;
+ justify-content: space-around;
+}
