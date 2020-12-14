@@ -18,6 +18,7 @@ img {
 
 .row img:hover {
   width: 450px;
+  filter: blur(2px);
 }
 
 h4 {
@@ -50,4 +51,22 @@ p {
   font-family: helvetica;
   color: snow;
   font-weight: lighter;
+}
+
+.tooltip-wrap {
+  position: relative;
+}
+.tooltip-wrap .tooltip-content {
+  display: none;
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  right: 10%;
+  padding: .5em;
+}
+.tooltip-wrap:hover .tooltip-content {
+  display: block;
+  text-align: center;
+  align-content: center;
+  text-shadow: 1px 1px 1px black;
 }
