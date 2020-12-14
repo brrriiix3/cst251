@@ -18,7 +18,6 @@ img {
 
 .row img:hover {
   width: 450px;
-  filter: blur(2px);
 }
 
 h4 {
