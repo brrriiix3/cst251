@@ -13,11 +13,12 @@ img {
   border: 5px solid #4b4e6d;
   border-radius: 25px;
   box-shadow: 5px 5px 20px #84dcc6;
-  transition: width 2s;
+
 }
 
 .row img:hover {
   width: 450px;
+  float: right;
 }
 
 h4 {
